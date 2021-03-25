@@ -1,5 +1,6 @@
 package com.teste;
 
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -11,4 +12,6 @@ public class CalculadoraTest {
         int soma = calc.somar("1+1+3");
         Assert.assertEquals(5, soma);
     }
+
+
 }
