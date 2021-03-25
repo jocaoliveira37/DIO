@@ -1,0 +1,6 @@
+
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü†ª¹ùÿÿÿÿ8‰§Å¥†/
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ƒß£³ùÿÿÿÿ
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿óà8‰§Å¥†/
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿óà8‰§Å¥†/
+r	java:S116"QRename this field "preÃ§o" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ûûÿÿÿÿÿ8³†Æ¥†/
