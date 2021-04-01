@@ -1,0 +1,6 @@
+
+c
+java:S3973	"HUse indentation to denote the code conditionally executed by this "for".(ÊÆóùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÂÛõøÿÿÿÿ
+—
+java:S2681"|This line will not be executed in a loop; only the first line of this 2-line block will be. The rest will execute only once.(ÂÛõøÿÿÿÿ
