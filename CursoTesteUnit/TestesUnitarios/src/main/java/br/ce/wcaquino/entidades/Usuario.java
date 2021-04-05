@@ -18,4 +18,10 @@ public class Usuario {
 		this.nome = nome;
 	}
 
+	@Override
+	public String toString() {
+		return "Usuario{" +
+				"nome='" + nome + '\'' +
+				'}';
+	}
 }

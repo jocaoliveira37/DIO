@@ -1,0 +1,13 @@
+/home/jose/Documents/workspace/DIO/CursoTesteUnit/TestesUnitarios/src/main/java/br/ce/wcaquino/entidades/Filme.java
+/home/jose/Documents/workspace/DIO/CursoTesteUnit/TestesUnitarios/src/main/java/br/ce/wcaquino/entidades/Locacao.java
+/home/jose/Documents/workspace/DIO/CursoTesteUnit/TestesUnitarios/src/main/java/exceptions/FilmeSemEstoqueException.java
+/home/jose/Documents/workspace/DIO/CursoTesteUnit/TestesUnitarios/src/main/java/exceptions/NaoPodeDividirPorZeroException.java
+/home/jose/Documents/workspace/DIO/CursoTesteUnit/TestesUnitarios/src/main/java/br/ce/wcaquino/servicos/LocacaoService.java
+/home/jose/Documents/workspace/DIO/CursoTesteUnit/TestesUnitarios/src/main/java/br/ce/wcaquino/servicos/SPCService.java
+/home/jose/Documents/workspace/DIO/CursoTesteUnit/TestesUnitarios/src/main/java/daos/LocacaoDaoFake.java
+/home/jose/Documents/workspace/DIO/CursoTesteUnit/TestesUnitarios/src/main/java/br/ce/wcaquino/entidades/Usuario.java
+/home/jose/Documents/workspace/DIO/CursoTesteUnit/TestesUnitarios/src/main/java/daos/LocacaoDao.java
+/home/jose/Documents/workspace/DIO/CursoTesteUnit/TestesUnitarios/src/main/java/br/ce/wcaquino/servicos/EmailService.java
+/home/jose/Documents/workspace/DIO/CursoTesteUnit/TestesUnitarios/src/main/java/br/ce/wcaquino/servicos/Calculadora.java
+/home/jose/Documents/workspace/DIO/CursoTesteUnit/TestesUnitarios/src/main/java/exceptions/LocadoraException.java
+/home/jose/Documents/workspace/DIO/CursoTesteUnit/TestesUnitarios/src/main/java/br/ce/wcaquino/utils/DataUtils.java

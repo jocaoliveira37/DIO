@@ -5,7 +5,37 @@
   <version>0.0.1-SNAPSHOT</version>
   <properties>
     <Junit.version>4.13.2</Junit.version>
+    <Mockito.version>3.8.0</Mockito.version>
+    <powermock.version>2.0.9</powermock.version>
+    <powermockModule.version>2.0.9</powermockModule.version>
   </properties>
+  <build>
+    <testSourceDirectory>src</testSourceDirectory>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M5</version>
+        <configuration>
+          <includes>
+            br/ce/wcaquino/**/*.java
+          </includes>
+          <threadCount>5</threadCount>
+          <parallel>all</parallel>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.4</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+
+    </plugins>
+  </build>
   
   <dependencies>
     <!-- https://mvnrepository.com/artifact/junit/junit -->
@@ -18,8 +48,26 @@
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
-      <version>RELEASE</version>
+      <version>5.4.2</version>
       <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-core</artifactId>
+      <version>${Mockito.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.powermock</groupId>
+      <artifactId>powermock-api-mockito2</artifactId>
+      <version>${powermock.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.powermock</groupId>
+      <artifactId>powermock-module-junit4</artifactId>
+      <version>${powermockModule.version}</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 </project>
